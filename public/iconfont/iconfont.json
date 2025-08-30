@@ -1,0 +1,191 @@
+{
+  "id": "3889097",
+  "name": "mytest",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "45040968",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "45060750",
+      "name": "教学实验",
+      "font_class": "jiaoxueshiyan",
+      "unicode": "10211",
+      "unicode_decimal": 66065
+    },
+    {
+      "icon_id": "45018603",
+      "name": "夜晴",
+      "font_class": "yeqing",
+      "unicode": "e90e",
+      "unicode_decimal": 59662
+    },
+    {
+      "icon_id": "35059804",
+      "name": "kings",
+      "font_class": "kings",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "35059805",
+      "name": "grizzlies",
+      "font_class": "grizzlies",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "35059806",
+      "name": "clippers",
+      "font_class": "clippers",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "35059813",
+      "name": "nuggets",
+      "font_class": "nuggets",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "35059814",
+      "name": "mavericks",
+      "font_class": "mavericks",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "35059822",
+      "name": "spurs",
+      "font_class": "spurs",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "35059823",
+      "name": "suns",
+      "font_class": "suns",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "35059831",
+      "name": "pelicans",
+      "font_class": "pelicans",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "34379798",
+      "name": "chevron-left",
+      "font_class": "chevron-left",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "34379836",
+      "name": "chevron-right",
+      "font_class": "chevron-right",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "32276771",
+      "name": "拨浪鼓",
+      "font_class": "bolanggu",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "32276772",
+      "name": "金字塔",
+      "font_class": "jinzita",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "32276773",
+      "name": "手套",
+      "font_class": "shoutao",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
+      "icon_id": "32276774",
+      "name": "吃饭",
+      "font_class": "chifan",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "32276775",
+      "name": "恐龙",
+      "font_class": "konglong",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "32276776",
+      "name": "木琴",
+      "font_class": "muqin",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "32276777",
+      "name": "积木",
+      "font_class": "jimu",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "10130836",
+      "name": "可回收-玻璃类",
+      "font_class": "kehuishou-bolilei",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "10130844",
+      "name": "可回收-塑料类",
+      "font_class": "kehuishou-suliaolei",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "10130846",
+      "name": "可回收-纸类",
+      "font_class": "kehuishou-zhilei",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "10135128",
+      "name": "其他垃圾-宠物粪便",
+      "font_class": "qitalaji-chongwufenbian",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10135145",
+      "name": "其他垃圾-一次性餐具",
+      "font_class": "qitalaji-yicixingcanju",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "10135163",
+      "name": "其他垃圾-女性卫生用品",
+      "font_class": "qitalaji-nvxingweishengyongpin",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}
