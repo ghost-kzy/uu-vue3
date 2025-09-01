@@ -1,6 +1,6 @@
 <template>
     <div class="hot-bar">
-        <div class="inner">{{ hot }}热</div>
+        <div class="inner">{{ hot }}</div>
     </div>
 
 </template>
