@@ -30,12 +30,14 @@ let singer = reactive({
   img:'/images/1.png',
   name:'黄霄雲',
   rate:1,
+  alt:'黄霄雲',
   hot:433760
 })
 let songs=reactive({
   img:'/images/2021.jpg',
   name:'打开',
   rate:1,
+  alt:'黄霄雲',
   hot:729858
 })
 </script>

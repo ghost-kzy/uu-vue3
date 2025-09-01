@@ -1,8 +1,9 @@
 <template>
-  <TeamTest />
+  <TeamTest/>
 </template>
 <script setup>
 import TeamTest from './components/Team-test.vue';
+
 
 </script>
 
