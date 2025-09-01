@@ -16,13 +16,13 @@ const {img,rate,alt}=defineProps({
   }
 })
 const Color=computed(()=>{
-  if(rate==1){
+  if(rate===1){
     return 'rgb(245, 102, 1)'
   }
-  else if(rate==2){
+  else if(rate===2){
     return 'rgb(45, 180, 1)'
   }
-  else if(rate==3){
+  else if(rate===3){
     return 'rgb(245, 240, 1)'
   }else{
     return 'rgb(145, 2, 1)'
