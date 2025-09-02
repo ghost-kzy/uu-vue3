@@ -30,7 +30,6 @@ const HotWidth = computed(() => {
   border-radius: 20px;
   text-indent: 0.5em;
 }
-
 .hot-bar .inner {
   background-color: darkred;
   border-radius: 20px;

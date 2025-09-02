@@ -2,19 +2,19 @@
   <div class="tab-wrapper">
     <!-- 选项卡的头部 -->
     <header class="tab-head">
-      <div class="tab-button" @click='current = 0' :class="{active:current===0}">最爱歌手</div>
-      <div class="tab-button" @click='current = 1' :class="{active:current === 1 }">最爱歌曲</div>
+      <div class="tab-button" @click='current = 0' :class="{ active: current === 0 }">最爱歌手</div>
+      <div class="tab-button" @click='current = 1' :class="{ active: current === 1 }">最爱歌曲</div>
     </header>
     <div class="main">
-      <div v-show="current===0">
+      <div v-show="current === 0">
         <!--球员-->
         <div class="tab-list">
-          <tab-item :item="singer"/>
+          <tab-item v-for="singer in songData" :item="singer" />
         </div>
       </div>
-      <div v-show="current===1">
+      <div v-show="current === 1">
         <div class="tab-list">
-          <tab-item :item="songs"/>
+          <tab-item v-for="song in singerData" :item="song" />
         </div>
       </div>
     </div>
@@ -22,26 +22,62 @@
 </template>
 
 <script setup>
-import {reactive,ref} from 'vue';
+import { reactive, ref } from 'vue';
 import TabItem from "./TabItem.vue";
 
 let current = ref(0)
-let singer = reactive({
-  img:'/images/1.png',
-  name:'黄霄雲',
-  rate:1,
-  alt:'黄霄雲',
-  hot:433760,
-  maxHot:1000000
-})
-let songs=reactive({
-  img:'/images/2021.jpg',
-  name:'盲选',
-  rate:1,
-  alt:'黄霄雲',
-  hot:729858,
-  maxHot:1000000
-})
+const songData = [
+  {
+    img: '/images/1.png',
+    name: '黄霄雲',
+    rate: 3,
+    alt: '黄霄雲',
+    hot: 729858,
+    maxHot: 1000000
+  },
+  {
+    img: '/images/2.jpg',
+    name: '盲选',
+    rate: 2,
+    alt: '黄霄雲',
+    hot: 529858,
+    maxHot: 1000000
+  },
+  {
+    img: '/images/2021.jpg',
+    name: '别叹',
+    rate: 3,
+    alt: '黄霄雲',
+    hot: 429558,
+    maxHot: 1000000
+  }
+]
+const singerData = [
+  {
+    img: '/images/1.png',
+    name: '黄霄雲',
+    rate: 3,
+    alt: '黄霄雲',
+    hot: 729858,
+    maxHot: 1000000
+  },
+  {
+    img: '/images/2.jpg',
+    name: '黄霄雲',
+    rate: 2,
+    alt: '黄霄雲',
+    hot: 529858,
+    maxHot: 1000000
+  },
+  {
+    img: '/images/2021.jpg',
+    name: '黄霄雲',
+    rate: 3,
+    alt: '黄霄雲',
+    hot: 429558,
+    maxHot: 1000000
+  }
+]
 </script>
 
 <style scoped>
@@ -78,6 +114,4 @@ let songs=reactive({
 .tab-list {
   margin: 10px;
 }
-
-
 </style>
