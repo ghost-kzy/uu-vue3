@@ -2,13 +2,13 @@
 import Photo from "./Photo.vue";
 import ItemHotBar from "./ItemHotBar.vue";
 
-const props = defineProps({
+const  props = defineProps({
   item:{
     type: Object,
     required: true
   }
 });
-const {name,img,hot,rate,alt}=props.item
+const {name,img,hot,rate,alt,maxHot}=props.item
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const {name,img,hot,rate,alt}=props.item
     <Photo :img="img" :rate='rate'  :alt="alt"/>
     <div class="tab-description">
       <div class="name">{{name}}</div>
-      <ItemHotBar :hot="hot" :max-hot="1000000"/>
+      <ItemHotBar :hot="hot" :max-hot="maxHot"/>
     </div>
   </div>
 

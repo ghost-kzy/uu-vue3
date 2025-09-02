@@ -3,7 +3,7 @@
     <!-- 选项卡的头部 -->
     <header class="tab-head">
       <div class="tab-button" @click='current = 0' :class="{active:current===0}">最爱歌手</div>
-      <div class="tab-button" @click='current = 1' :class="{ active: current === 1 }">最爱歌曲</div>
+      <div class="tab-button" @click='current = 1' :class="{active:current === 1 }">最爱歌曲</div>
     </header>
     <div class="main">
       <div v-show="current===0">
@@ -31,14 +31,16 @@ let singer = reactive({
   name:'黄霄雲',
   rate:1,
   alt:'黄霄雲',
-  hot:433760
+  hot:433760,
+  maxHot:1000000
 })
 let songs=reactive({
   img:'/images/2021.jpg',
-  name:'打开',
+  name:'盲选',
   rate:1,
   alt:'黄霄雲',
-  hot:729858
+  hot:729858,
+  maxHot:1000000
 })
 </script>
 
